@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Applique le défilement fluide sur tout le document */
+html {
+  scroll-behavior: smooth;
+  transition: 1.5s;
+}
+
+/* Style des sections */
+.section {
+  height: 100vh; /* Chaque section occupe toute la hauteur de l'écran */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: lightblue;
+  border: 1px solid #ccc;
+  margin-bottom: 1px;
+}
+
+.floating_button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
